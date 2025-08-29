@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tombstone Trader</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+<h1>Tombstone Trader</h1>
+<div style="font-family: sans-serif; color: #00ff0d; text-align: center; font-size: 0.9em; margin-bottom: 1em;">
+  A game of risk and reward. Decide which zombies to keep and sell them later for a profit—but be careful: the very next zombie could be Legendary! Plan wisely, manage your hoard, and maximize your fortune
+</div>
+<div id="info"></div>
+<div id="zombie-container">
+  <img id="zombie" src="" alt="Zombie" draggable="false" oncontextmenu="return false;">
+</div>
+<div id="slots">
+  <div class="slot">-</div>
+  <div class="slot">-</div>
+  <div class="slot">-</div>
+  <div class="slot">-</div>
+</div>
+
+<div id="alert-box">
+  <div id="alert-text"></div>
+  <button id="alert-ok">OK</button>
+</div>
+<div style="margin:2.5em 0 1.5em 0; display:flex; flex-direction:column; align-items:center;">
+  <a href="#" style="display:inline-block; margin-bottom:0.5em;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style="height:48px;">
+  </a>
+</div>
+
+
+<script type="module" src="./zombie-game.js"></script>
+
+
+<footer style="width:100vw; text-align:center; font-family: 'Press Start 2P', cursive, Arial, sans-serif; color:#00ff88; font-size:0.7em; margin-top:2em; position:relative; bottom:0;">
+  &copy; 2025 Tombstone Trader game created by Alexandru Costea. All rights reserved.
+</footer>
+</body>
+</html>
